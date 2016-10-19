@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'asserter' ]
+2 info using npm@2.1.6
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json LifemapAPI@1.0.0 No description
+6 warn package.json LifemapAPI@1.0.0 No README data
+7 warn package.json fs@0.0.2 fs is also the name of a node core module.
+8 warn package.json fs@0.0.2 No description
+9 warn package.json fs@0.0.2 No repository field.
+10 warn package.json sys@0.0.1 No repository field.
+11 warn package.json https-server@0.1.2 'repositories' (plural) Not supported. Please pick one as the 'repository' field
+12 warn package.json util@0.10.3 util is also the name of a node core module.
+13 silly cache add args [ 'asserter', null ]
+14 verbose cache add spec asserter
+15 silly cache add parsed spec { raw: 'asserter',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'asserter',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 verbose addNamed asserter@*
+17 silly addNamed semver.valid null
+18 silly addNamed semver.validRange *
+19 silly addNameRange { name: 'asserter', range: '*', hasData: false }
+20 verbose mapToRegistry name asserter
+21 verbose mapToRegistry uri https://registry.npmjs.org/asserter
+22 verbose addNameRange registry:https://registry.npmjs.org/asserter not in flight; fetching
+23 verbose request on initialization, where is /asserter
+24 verbose request after pass 1, where is /asserter
+25 verbose request url raw /asserter
+26 verbose request resolving registry [ 'https://registry.npmjs.org/', './asserter' ]
+27 verbose request after pass 2, where is https://registry.npmjs.org/asserter
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 14:51:41
+30 verbose request id ee452150331b668c
+31 http request GET https://registry.npmjs.org/asserter
+32 http 404 https://registry.npmjs.org/asserter
+33 verbose headers { date: 'Tue, 03 Feb 2015 09:21:44 GMT',
+33 verbose headers   server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=0',
+33 verbose headers   'content-length': '52',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   age: '0',
+33 verbose headers   'x-served-by': 'cache-sn87-SIN',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1422955303.695272,VS0,VE354',
+33 verbose headers   'keep-alive': 'timeout=10, max=50',
+33 verbose headers   connection: 'Keep-Alive' }
+34 silly registry.get cb [ 404,
+34 silly registry.get   { date: 'Tue, 03 Feb 2015 09:21:44 GMT',
+34 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+34 silly registry.get     'content-type': 'application/json',
+34 silly registry.get     'cache-control': 'max-age=0',
+34 silly registry.get     'content-length': '52',
+34 silly registry.get     'accept-ranges': 'bytes',
+34 silly registry.get     via: '1.1 varnish',
+34 silly registry.get     age: '0',
+34 silly registry.get     'x-served-by': 'cache-sn87-SIN',
+34 silly registry.get     'x-cache': 'MISS',
+34 silly registry.get     'x-cache-hits': '0',
+34 silly registry.get     'x-timer': 'S1422955303.695272,VS0,VE354',
+34 silly registry.get     'keep-alive': 'timeout=10, max=50',
+34 silly registry.get     connection: 'Keep-Alive' } ]
+35 verbose stack Error: 404 Not Found: asserter
+35 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+35 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+35 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:364:22)
+35 verbose stack     at Request.emit (events.js:98:17)
+35 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1318:14)
+35 verbose stack     at Request.emit (events.js:117:20)
+35 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1266:12)
+35 verbose stack     at IncomingMessage.emit (events.js:117:20)
+35 verbose stack     at _stream_readable.js:943:16
+35 verbose stack     at process._tickCallback (node.js:419:13)
+36 verbose statusCode 404
+37 verbose pkgid asserter
+38 verbose cwd /Users/ankitapatel/APITesting/Lifemap/LifemapAPI
+39 error Darwin 13.1.0
+40 error argv "node" "/usr/local/bin/npm" "install" "asserter"
+41 error node v0.10.33
+42 error npm  v2.1.6
+43 error code E404
+44 error 404 Not Found: asserter
+44 error 404
+44 error 404 'asserter' is not in the npm registry.
+44 error 404 You should bug the author to publish it (or use the name yourself!)
+44 error 404 It was specified as a dependency of 'LifemapAPI'
+44 error 404
+44 error 404 Note that you can also install from a
+44 error 404 tarball, folder, http url, or git url.
+45 verbose exit [ 1, true ]

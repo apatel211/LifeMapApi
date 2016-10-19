@@ -1,0 +1,20 @@
+{
+    "onsauce": false,
+    "resultsFile": "SauceResults.xml",
+    "maxwaittime": "120000",
+    "loglevelmin": 0,
+    "xunitResultsFile": "test-reports.xml",
+    "qtest": {
+        "apiurl": "https://mobiquity.qtestnet.com/api",
+        "username": "apatel@mobiquityinc.com",
+        "password": "password",
+        "projectid": "8275",
+        "regressionsuiteid": "36637"
+    },
+    "local": {
+        "path": "http://lmadmin-qa.mobproto.com:8080",
+        "host": "localhost",
+        "port": "4723",
+        "name":"LifeMap"
+    }
+} 
